@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Course Registration Form</title>
+</head>
+<body>
+  <h1>Course Registration</h1>
+  <form>
+    <fieldset>
+      <legend>Personal Info</legend>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Select Course</legend>
+      <label for="course">Course:</label>
+      <select id="course" name="course">
+        <option value="python">Python</option>
+        <option value="django">Django</option>
+        <option value="ml">Machine Learning</option>
+      </select>
+    </fieldset>
+  </form>
+  <br>
+  <h2>Course Schedule</h2>
+  <table border="1">
+    <tr>
+      <th>Day</th>
+      <th>Time</th>
+      <th>Instructor</th>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>10:00-12:00</td>
+      <td>Mr. A</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>14:00-16:00</td>
+      <td>Ms. B</td>
+    </tr>
+  </table>
+</body>
+</html>
