@@ -1,0 +1,8 @@
+{
+  "name": "student-result-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "json": "json-server --watch db.json --port 3000"
+  }
+}

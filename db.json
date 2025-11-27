@@ -1,0 +1,25 @@
+{
+  "students": [
+    {
+      "name": "Varun Gupta",
+      "section": "cb",
+      "marks": "100",
+      "grade": "O",
+      "id": "bd80"
+    },
+    {
+      "id": "8540",
+      "name": "st1",
+      "section": "cc",
+      "marks": "50",
+      "grade": "B+"
+    },
+    {
+      "name": "xyz",
+      "section": "CD",
+      "marks": "-10",
+      "grade": "F",
+      "id": "b95d"
+    }
+  ]
+}
