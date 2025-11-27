@@ -29,10 +29,25 @@ function StudentForm({ mode, student, onBack }) {
           <div />
         </div>
 
-        <input className="input" placeholder="Name" value={name} onChange={e=>setName(e.target.value)} />
-        <input className="input" placeholder="Section" value={section} onChange={e=>setSection(e.target.value)} />
-        <input className="input" placeholder="Marks" value={marks} onChange={e=>setMarks(e.target.value)} />
-        <input className="input" placeholder="Grade" value={grade} onChange={e=>setGrade(e.target.value)} />
+        <label>
+          <span style={{display:'block',fontSize:12,color:'var(--muted)',marginBottom:6}}>Name</span>
+          <input id="student-name" className="input" placeholder="Name" value={name} onChange={e=>setName(e.target.value)} required />
+        </label>
+
+        <label>
+          <span style={{display:'block',fontSize:12,color:'var(--muted)',marginBottom:6}}>Section</span>
+          <input id="student-section" className="input" placeholder="Section" value={section} onChange={e=>setSection(e.target.value)} />
+        </label>
+
+        <label>
+          <span style={{display:'block',fontSize:12,color:'var(--muted)',marginBottom:6}}>Marks</span>
+          <input id="student-marks" className="input" type="number" min="0" max="100" placeholder="Marks" value={marks} onChange={e=>setMarks(e.target.value)} />
+        </label>
+
+        <label>
+          <span style={{display:'block',fontSize:12,color:'var(--muted)',marginBottom:6}}>Grade</span>
+          <input id="student-grade" className="input" placeholder="Grade" value={grade} onChange={e=>setGrade(e.target.value)} />
+        </label>
 
         <div className="form-actions">
           <button className="btn btn-primary" type="submit">Save</button>

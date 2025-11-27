@@ -1,3 +1,59 @@
+# Student Result App
+
+This is a small React + Vite app to manage student results.
+
+What's included
+
+- Simple CRUD UI for students (list, add, edit, view details)
+- A tiny JSON server script for local data `db.json`
+- Production-ready build via Vite
+
+Getting started (development)
+
+1. Install dependencies
+
+```cmd
+npm install
+```
+
+2. Run the development server
+
+```cmd
+npm run dev
+```
+
+3. Run the JSON API server (separate terminal)
+
+```cmd
+npm run json
+```
+
+Production build
+
+1. Build
+
+```cmd
+npm run build
+```
+
+2. Preview the production build locally
+
+```cmd
+npm run preview
+```
+
+Deployment notes
+
+- This project uses Vite; you can deploy the `dist/` output to any static host (Netlify, Vercel, GitHub Pages, S3).
+- If you want a Node server to serve the built files, use a simple static server (e.g. `serve` package) or an Express-based server.
+
+Accessibility & production improvements
+
+- Semantic markup and labels added for forms and tables.
+- Meta tags updated in `index.html` for description and theme color.
+- Added `.gitignore` and `preview` script for production preview.
+
+If you'd like, I can create a Git commit and push these changes to your GitHub repo — tell me the repo clone URL and confirm push.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

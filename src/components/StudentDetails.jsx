@@ -1,4 +1,15 @@
 function StudentDetails({ student, onBack }) {
+  if (!student) {
+    return (
+      <div className="card">
+        <div className="card-body">
+          <p>No student selected.</p>
+          <button className="btn" onClick={onBack}>Back</button>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="card">
       <div className="card-header">

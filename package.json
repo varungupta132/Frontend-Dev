@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
-    "json": "json-server --watch db.json --port 3000"
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "json": "json-server --watch db.json --port 3000",
+    "start": "npm run preview"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }

@@ -29,7 +29,13 @@ function StudentList({ onAdd, onEdit, onView }) {
       <div className="card-body">
         <table className="table">
           <thead>
-            <tr><th>Name</th><th>Section</th><th>Marks</th><th>Grade</th><th>Actions</th></tr>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Section</th>
+              <th scope="col">Marks</th>
+              <th scope="col">Grade</th>
+              <th scope="col">Actions</th>
+            </tr>
           </thead>
           <tbody>
             {students.map(s => (
